@@ -1,7 +1,7 @@
 from selenium import webdriver
 import requests
 
-url = "https://staging-web.spacestock.com/cari-apartemen?listingType=buy&buildingType=apartment"
+url = "https://spacestock.com/cari-apartemen?listingType=buy&buildingType=apartment"
 
 driver = webdriver.Chrome()
 driver.get(url) # Akses Site
